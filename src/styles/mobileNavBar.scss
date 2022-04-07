@@ -1,0 +1,190 @@
+.mobileNavBar
+{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #711A75;
+    border-radius: 0 0 15px 15px;
+    justify-content: center;
+}
+.rodriSapiensAndLogo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:.5rem;
+}
+.rodriSapiens
+{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.logo{
+    width: 2rem;
+}
+.navBarIcon
+{
+    width: 2rem;    
+    height: fit-content;
+}
+.mnvon
+{
+    animation: fullHeigth .5s ease-out forwards;    
+    
+}
+@keyframes fullHeigth {
+    0%{
+        height: 10vh;
+    }
+    100%{
+        height: 100vh;
+    }
+}
+.mnvoff
+{
+    animation: partialHeigth .5s ease-in forwards;    
+
+}
+@keyframes partialHeigth {
+    0%{
+        height: 100vh;
+    }
+    100%{
+height: 10vh;
+    }
+}
+.staticContent
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 1vh;
+    width: 100%;
+}
+.nbion
+{
+    
+    #top
+    {
+        transform-box: view-box;
+        transform-origin: right;
+        animation: nabIconTop .5s ease forwards;
+    }
+    #bottom{
+        transform-box: view-box;
+        transform-origin: right;
+        animation: nabIconBottom .5s ease forwards;
+
+      }
+      #mid{
+        animation: nabIconMid .5s ease forwards;
+
+      }
+    
+}
+@keyframes nabIconTop {
+    100%{
+        transform: rotateZ(-26deg) translatey(-1px);
+    }
+}
+@keyframes nabIconBottom {
+    100%{
+        transform: rotateZ(26deg) translateX(0px);
+    }
+}
+@keyframes nabIconMid {
+    100%{
+        transform: translateY(2rem);
+    }    
+}
+.nbioff
+{
+    
+    #top
+    {
+        transform-box: view-box;
+        transform-origin: right;
+        animation: nabIconTopoff .5s ease forwards;
+    }
+    #bottom{
+        transform-box: view-box;
+        transform-origin: right;
+        animation: nabIconBottomoff .5s ease forwards;
+
+      }
+      #mid{
+        animation: nabIconMidoff .5s ease forwards;
+
+      }
+    
+}
+@keyframes nabIconTopoff {
+    0%{
+        transform: rotateZ(-26deg) translatey(-1px);
+
+    }
+    100%{
+        transform: rotateZ(0) translatey(0);
+    }
+}
+@keyframes nabIconBottomoff {
+    0%{
+        transform: rotateZ(26deg) translateX(0px);
+
+    }
+    100%{
+        transform: rotateZ(0) translateX(0px);
+    }
+}
+@keyframes nabIconMidoff {
+    0%{
+        transform: translateY(2rem);
+
+    }
+    100%{
+        transform: translateY(0);
+    }    
+}
+.first
+{
+    animation: mnvAppear .5s ease forwards;
+}
+@keyframes mnvAppear {
+    0%{
+        height: 0;
+    }
+    100%{
+        height:10vh;
+    }
+}
+.firtsStatic
+{
+animation: appearStatic .5s ease forwards;
+}
+@keyframes appearStatic {
+    0%{
+        transform: translateY(-200%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.links
+{
+    display: grid;
+}
+.loff
+{
+    animation: hide .5s ease forwards
+}
+@keyframes hide {
+    0%{
+        transform:translateY(0);
+    } 
+    100%{
+        transform:translateY(-30vh);
+        visibility: hidden;
+    }   
+}
