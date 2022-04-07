@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react'
+import React, { useState, useEffect} from 'react'
 import { ReactComponent as Logo } from "../images/rodriSapiensLogo.svg"
 import "../styles/mobileNavBar.css"
 import { ReactComponent as NavBarIcon } from "../images/navBarIcon.svg"
@@ -11,10 +11,6 @@ function MobileNavBar() {
   useEffect(() => {
     setFirts(true);
   }, [])
-  useEffect(()=>{
-console.log(scrollTo)
-  },[scrollTo])
-
   function handleClick() {
     setClicked(!clicked);
     setFirts(false);
@@ -28,11 +24,11 @@ console.log(scrollTo)
         </div>
         <NavBarIcon className={first ? "navBarIcon" : clicked ? "navBarIcon nbion" : "navBarIcon nbioff"} onClick={handleClick} />
       </div>
-      <div className={clicked?"links":"links loff"}>
-        <Link to={"/"} onClick={()=>{setScrollTo("Home");setClicked(false)}} >Home</Link>
-        <Link to={"/"} onClick={()=>{setScrollTo("Projects");setClicked(false)}}>Projects</Link>
-        <Link to={"/"} onClick={()=>{setScrollTo("AboutMe");setClicked(false)}}>About Me</Link>
-        <Link to={"/"} onClick={()=>{setScrollTo("Contact");setClicked(false)}}>Contact</Link>
+      <div className={first?"links notV":clicked?"links lon":"links loff"}>
+        <Link to={"/"} onClick={()=>{setScrollTo("Home");setClicked(false)}} className="MNVBtn">Home</Link>
+        <Link to={"/"} onClick={()=>{setScrollTo("Projects");setClicked(false)}} className="MNVBtn">Projects</Link>
+        <Link to={"/"} onClick={()=>{setScrollTo("AboutMe");setClicked(false)}} className="MNVBtn">About Me</Link>
+        <Link to={"/"} onClick={()=>{setScrollTo("Contact");setClicked(false)}} className="MNVBtn">Contact</Link>
       </div>
     </div>
   )

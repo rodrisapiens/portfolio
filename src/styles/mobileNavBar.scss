@@ -7,6 +7,8 @@
     background-color: #711A75;
     border-radius: 0 0 15px 15px;
     justify-content: center;
+    position: fixed;
+    z-index: 3;
 }
 .rodriSapiensAndLogo
 {
@@ -174,12 +176,27 @@ animation: appearStatic .5s ease forwards;
 .links
 {
     display: grid;
+    gap: 1rem;
 }
+.lon
+{
+    animation: laprread .5s ease forwards
+
+}
+@keyframes laprread {
+    0%{
+        transform:translateY(-30vh);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+
 .loff
 {
-    animation: hide .5s ease forwards
+    animation: lhide .5s ease forwards
 }
-@keyframes hide {
+@keyframes lhide {
     0%{
         transform:translateY(0);
     } 
@@ -187,4 +204,15 @@ animation: appearStatic .5s ease forwards;
         transform:translateY(-30vh);
         visibility: hidden;
     }   
+}
+.notV
+{
+    visibility: hidden;
+}
+.MNVBtn
+{
+    text-decoration: none;
+    font-family: inherit;
+    text-align: center;
+    font-size: 2rem;
 }

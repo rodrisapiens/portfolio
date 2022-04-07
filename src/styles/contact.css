@@ -1,0 +1,199 @@
+.contactPage {
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5%;
+}
+
+.warn {
+  position: relative;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  color: #ff4040;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
+.contactBirds {
+  width: 80vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 6%;
+  left: 15%;
+}
+
+.enviame {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contactConteiner {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+}
+
+.contactBox {
+  border: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 5px;
+  height: 27rem;
+  width: 90vw;
+  display: -ms-grid;
+  display: grid;
+  padding: 5%;
+}
+
+.fill {
+  display: -ms-grid;
+  display: grid;
+  height: 70%;
+}
+
+.contactFill {
+  background-color: transparent;
+  outline: none;
+  font-family: inherit;
+  height: 50%;
+  border: solid;
+  border-color: white;
+  border-width: thin;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.contactMessage {
+  background-color: transparent;
+  background-color: transparent;
+  outline: none;
+  font-family: inherit;
+  border: solid;
+  border-color: white;
+  border-width: thin;
+  color: white;
+  padding: 1rem;
+  margin-top: -7rem;
+  border-radius: 5px;
+  font-weight: 300;
+}
+
+.big {
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -ms-grid;
+  display: grid;
+  margin-top: -1rem;
+  border-width: thin;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.myPlaceHolder {
+  position: relative;
+  color: white;
+  font-family: inherit;
+  font-weight: 300;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.myPlaceLastHolder {
+  position: relative;
+  color: white;
+  font-family: inherit;
+  font-weight: 300;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  top: -28%;
+  margin-top: -4rem;
+}
+
+@media all and (min-width: 600px) {
+  .contactPage {
+    height: 100vh;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    padding: 5%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactBirds {
+    width: 10rem;
+    visibility: hidden;
+  }
+  .contactBox {
+    width: 30rem;
+    height: 27rem;
+  }
+  .big {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    display: -ms-grid;
+    display: grid;
+    margin-top: -1rem;
+    border-width: thin;
+    font-weight: 300;
+  }
+}
+
+.good {
+  border-color: greenyellow;
+}
+
+.error {
+  border-color: #ff4040;
+}
+
+.green {
+  color: greenyellow;
+}
+
+.more {
+  background-color: transparent;
+  border: solid;
+  position: relative;
+  left: 50%;
+  font-family: inherit;
+  border-width: thin;
+  font-weight: lighter;
+  margin-top: 1rem;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/*# sourceMappingURL=contact.css.map */

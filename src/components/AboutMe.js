@@ -1,8 +1,10 @@
 import React from 'react'
-
+import "../styles/aboutme.css"
 function AboutMe() {
   return (
-    <div className='aboutMe' id='AboutMe'>AboutMe</div>
+    <div className='AboutMe' id='AboutMe'>
+      AboutMe
+    </div>
   )
 }
 

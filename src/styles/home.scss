@@ -3,3 +3,116 @@
     height: 100vh;
     width: 100%;
 }
+.header
+{
+    background-color: #F10086;
+    border-radius: 15px;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    animation: headerAprear .5s ease forwards;
+    animation-delay: .2s;
+    z-index: 2;
+    display: grid;
+    align-items: flex-end;
+    justify-content: center;
+}
+@keyframes headerAprear {
+    100%{
+        height: 25vh;
+    }
+}
+.headerText
+{
+    transform: translateY(-30vh);
+    display: grid;
+    justify-items: center;
+    animation: headerTextAppear .5s ease forwards;
+    animation-delay: .2s;
+    margin-bottom: 3.5vh;
+}
+@keyframes headerTextAppear {   
+    100%{
+        transform: translateY(0);
+    } 
+}
+.headerTitle
+{
+    color: #711A75;
+}
+.headerSubtitle
+{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.heroSection
+{
+    background-color: #F582A7;
+    border-radius: 15px;
+    position: absolute;
+    width: 100%;
+    animation: heroAprear .5s ease forwards;
+    animation-delay: .4s;
+    top: 0%;
+    left: 0%;
+    height: 0;
+
+}
+@keyframes heroAprear {
+    100%{
+        height: 90vh;
+    }
+}
+.heroTexts{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.heroText
+{
+    text-align: center;
+    color: #F582A7;
+    font-size: 1rem; 
+}
+.A
+{
+    width: max-content;
+}
+.noteBook
+{
+    position: relative;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100vw;
+    animation: noteBook .5s ease forwards;
+    #top{
+        transform-origin: bottom;
+        transform-box:viewbox;
+        transform: rotateX(90deg);
+        animation: noteBookTop .8s ease forwards;
+        animation-delay: 1s;
+    }//translateY(-515%)
+}
+@keyframes noteBookTop {
+    0%{
+        transform: rotateX(89deg) translateY(-500%);
+    }
+    1%{
+        transform: rotateX(88deg) translateY(-70%);
+    }
+    7%{
+        transform: rotateX(85deg) translateY(-50%);
+    }
+    10%{
+        transform: rotateX(80deg) translateY(0);
+    }
+    11%{
+        transform: rotateX(70deg) translateY(0);
+    }
+    100%{
+        transform: rotateX(0deg) translateY(0%);
+    }
+}

@@ -11,6 +11,8 @@
   background-color: #711A75;
   border-radius: 0 0 15px 15px;
   justify-content: center;
+  position: fixed;
+  z-index: 3;
 }
 
 .rodriSapiensAndLogo {
@@ -305,14 +307,42 @@
 .links {
   display: -ms-grid;
   display: grid;
+  gap: 1rem;
+}
+
+.lon {
+  -webkit-animation: laprread .5s ease forwards;
+          animation: laprread .5s ease forwards;
+}
+
+@-webkit-keyframes laprread {
+  0% {
+    -webkit-transform: translateY(-30vh);
+            transform: translateY(-30vh);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes laprread {
+  0% {
+    -webkit-transform: translateY(-30vh);
+            transform: translateY(-30vh);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 .loff {
-  -webkit-animation: hide .5s ease forwards;
-          animation: hide .5s ease forwards;
+  -webkit-animation: lhide .5s ease forwards;
+          animation: lhide .5s ease forwards;
 }
 
-@-webkit-keyframes hide {
+@-webkit-keyframes lhide {
   0% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -324,7 +354,7 @@
   }
 }
 
-@keyframes hide {
+@keyframes lhide {
   0% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -334,5 +364,16 @@
             transform: translateY(-30vh);
     visibility: hidden;
   }
+}
+
+.notV {
+  visibility: hidden;
+}
+
+.MNVBtn {
+  text-decoration: none;
+  font-family: inherit;
+  text-align: center;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=mobileNavBar.css.map */
