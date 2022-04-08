@@ -238,4 +238,19 @@
             transform: rotateX(0deg) translateY(0%);
   }
 }
+
+@media all and (min-width: 600px) {
+  .noteBook {
+    width: auto;
+  }
+  .header {
+    top: 0;
+  }
+  .heroTexts {
+    top: 58%;
+  }
+  .heroText {
+    font-size: 3rem;
+  }
+}
 /*# sourceMappingURL=home.css.map */
