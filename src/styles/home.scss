@@ -68,7 +68,18 @@
     top: 63%;
     left: 50%;
     transform: translate(-50%,-50%);
-
+    visibility: hidden;
+    animation: heroTextAppear .5s ease forwards;
+    animation-delay: .4s;
+}
+@keyframes heroTextAppear {
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+    
 }
 .heroText
 {
@@ -87,7 +98,9 @@
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100vw;
+    visibility: hidden;
     animation: noteBook .5s ease forwards;
+    animation-delay: .4s;
     #top{
         transform-origin: bottom;
         transform-box:viewbox;
@@ -95,6 +108,14 @@
         animation: noteBookTop .8s ease forwards;
         animation-delay: 1s;
     }//translateY(-515%)
+}
+@keyframes noteBook {
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }    
 }
 @keyframes noteBookTop {
     0%{

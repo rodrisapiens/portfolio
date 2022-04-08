@@ -104,6 +104,29 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  visibility: hidden;
+  -webkit-animation: heroTextAppear .5s ease forwards;
+          animation: heroTextAppear .5s ease forwards;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+@-webkit-keyframes heroTextAppear {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes heroTextAppear {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
 
 .heroText {
@@ -125,8 +148,11 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 100vw;
+  visibility: hidden;
   -webkit-animation: noteBook .5s ease forwards;
           animation: noteBook .5s ease forwards;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
 }
 
 .noteBook #top {
@@ -139,6 +165,24 @@
           animation: noteBookTop .8s ease forwards;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
+}
+
+@-webkit-keyframes noteBook {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes noteBook {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
 
 @-webkit-keyframes noteBookTop {
