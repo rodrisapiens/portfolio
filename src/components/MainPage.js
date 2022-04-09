@@ -15,17 +15,17 @@ function MainPage() {
         const projects = document.getElementById("Projects");
         const aboutMe = document.getElementById("AboutMe");
         if (scrollTo === "Contact") {
-            contact.scrollIntoView({ behavior: 'smooth' })
+            contact.scrollIntoView()
         }
         if (scrollTo === "Home") {
             window.scrollTo(0,0)
             //home.scrollIntoView({ behavior: 'smooth' })
         }
         if (scrollTo === "AboutMe") {
-            aboutMe.scrollIntoView({ behavior: 'smooth' })
+            aboutMe.scrollIntoView()
         }
         if (scrollTo === "Projects") {
-            projects.scrollIntoView({ behavior: 'smooth' })
+            projects.scrollIntoView()
         }
     }, [scrollTo])
     useEffect(() => {
@@ -58,7 +58,6 @@ function MainPage() {
         if (position === 0) {
             navBar.style.transform = `translateY(0)`//appear
         }
-        console.log(position);
     }
     return (
         <div className='mainPage'>

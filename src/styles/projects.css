@@ -11,6 +11,9 @@
           justify-content: center;
   border-bottom: solid;
   border-bottom-width: thin;
+  padding: 5vw;
+  justify-items: center;
+  gap: 1rem;
 }
 
 .cards {
@@ -23,5 +26,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 1rem;
 }
 /*# sourceMappingURL=projects.css.map */

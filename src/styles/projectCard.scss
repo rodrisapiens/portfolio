@@ -1,0 +1,19 @@
+.projectCard
+{
+    display: flex;
+    padding: 1rem;
+    gap: .5rem;
+    background-color: #711A75;
+}
+.CardImage{
+    width: 30vw;
+}
+.cardText
+{
+    display: grid;
+    gap: .5rem;
+}
+.cardTitle
+{
+    font-size: 1rem;
+}

@@ -1,0 +1,23 @@
+.projectCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  gap: .5rem;
+  background-color: #711A75;
+}
+
+.CardImage {
+  width: 30vw;
+}
+
+.cardText {
+  display: -ms-grid;
+  display: grid;
+  gap: .5rem;
+}
+
+.cardTitle {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=projectCard.css.map */

@@ -188,13 +188,10 @@
   background-color: transparent;
   border: solid;
   position: relative;
-  left: 50%;
   font-family: inherit;
   border-width: thin;
   font-weight: lighter;
   margin-top: 1rem;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
   padding: 1rem;
 }
 /*# sourceMappingURL=contact.css.map */
