@@ -48,7 +48,7 @@ function Contact() {
         {
             sendEmail(email,name,phone,message)
         }
-        else {warn.classList.remove("green");warn.innerText="Error,Completá todos los espacios :)";}
+        else {warn.classList.remove("green");warn.innerText="Error,fill all the spaces :)";}
     }
     function sendEmail(email,name,phone,message)
     {        const warn= document.getElementById("warn");
@@ -65,7 +65,7 @@ function Contact() {
         }).then(
           message =>{if(message==="OK"){
             warn.classList.add("green")  
-            warn.innerText="Mensaje enviado correctamente :)"}}
+            warn.innerText="Message sent correctly :)"}}
         );
     }
     

@@ -1,9 +1,13 @@
 import React,{useEffect} from 'react'
 import "../styles/projectCard.css"
+import {Link} from "react-router-dom";
 function ProjectCard({ info}) {
+  useEffect(() => {
+  }, [])
+  
   return (
         
-    <div className='projectCard'>
+    <Link to={"/projectPage"} className={info.bg==="#711A75"?'projectCard Violet':info.bg==="#F10086"?"projectCard pink":"projectCard ligthPink"}>
       {info.photoRigth ?
         <>
           <div className='cardText'>
@@ -21,7 +25,7 @@ function ProjectCard({ info}) {
           </div>
         </>
       }
-    </div>
+    </Link>
   )
 }
 

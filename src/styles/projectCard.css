@@ -4,11 +4,16 @@
   display: flex;
   padding: 1rem;
   gap: .5rem;
-  background-color: #711A75;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 .CardImage {
   width: 30vw;
+  height: 7rem;
 }
 
 .cardText {
@@ -19,5 +24,23 @@
 
 .cardTitle {
   font-size: 1rem;
+}
+
+.Violet {
+  background-color: #711A75;
+}
+
+.pink {
+  background-color: #F10086;
+}
+
+.ligthPink {
+  background-color: #F582A7;
+}
+
+.cardDescription {
+  color: #180A0A;
+  font-size: small;
+  height: 6rem;
 }
 /*# sourceMappingURL=projectCard.css.map */

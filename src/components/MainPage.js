@@ -30,13 +30,18 @@ function MainPage() {
     }, [scrollTo])
     useEffect(() => {
         window.addEventListener("scroll", HandleScroll);
+
     }, [])
     function HandleScroll() {//hay un bug, y el scrollY al 100% no coincide con el clientHeigth.aca voy a hacer cuentas para arreglarlo
         const mainPage=document.querySelector(".mainPage")
         const navBar=window.innerWidth>600?document.querySelector(".navBar"):document.querySelector(".mobileNavBar");
         const convertion = (100 / (mainPage.clientHeight));//as a linear function, let's calculate the convertion factor
         const converion1 = 100 / 80;//80 es el maximo que llega position
+        console.log(mainPage.clientHeight/window.innerHeight,"mainPage.clientHeight/window.innerHeight")
         const position = ((window.scrollY) * convertion) * converion1//valor de 0 a 100
+        console.log((window.scrollY) * convertion,"(window.scrollY) * convertion)");
+        console.log(window.scrollY,"window.scrollY")
+        console.log(window.scrollY+window.innerHeight,"window.scrollY+window.innerHeight")      
         positions.current[0] = position;
         if (positions.current[0] - positions.current[1] > 0)//si estoy bajando
         {

@@ -1,9 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect} from 'react'
 import "../styles/projects.css"
 import ProjectCard from "./ProjectCard.js"
 import { info } from "../api"
 function Projects() {
   const [more, setMore] = useState(false);
+  useEffect(() => {
+  const cards= document.querySelectorAll(".projectCard")
+  cards[0].getElementsByClassName.backgroundColor="#F10086"
+  }, [more])
   return (
     <div className='projects' id="Projects">
       <h1 className="latestProjects">
