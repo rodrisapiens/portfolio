@@ -30,6 +30,19 @@
     width: 2rem;    
     height: fit-content;
 }
+.mobileNavBarMnvon
+{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #711A75;
+    border-radius: 0 0 15px 15px;
+    justify-content: center;
+    position: fixed;
+    z-index: 3;
+    animation: fullHeigth .5s ease-out forwards;    
+}
 .mnvon
 {
     animation: fullHeigth .5s ease-out forwards;    

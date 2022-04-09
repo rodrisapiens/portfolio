@@ -11,13 +11,14 @@ function MainPage() {
     useEffect(() => {
 
         const contact = document.getElementById("Contact");
-        const home = document.getElementById("Home");
+        const home = document.getElementById("header");
         const projects = document.getElementById("Projects");
         const aboutMe = document.getElementById("AboutMe");
         if (scrollTo === "Contact") {
             contact.scrollIntoView({ behavior: 'smooth' })
         }
         if (scrollTo === "Home") {
+            window.scrollTo(0,0)
             home.scrollIntoView({ behavior: 'smooth' })
         }
         if (scrollTo === "AboutMe") {

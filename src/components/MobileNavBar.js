@@ -16,7 +16,7 @@ function MobileNavBar() {
     setFirts(false);
   }
   return (
-    <div className={first ? "mobileNavBar first" : clicked ? 'mobileNavBar mnvon' : 'mobileNavBar mnvoff'}>
+    <div className={first ? "mobileNavBar first" : clicked ? 'mobileNavBarMnvon' : 'mobileNavBar mnvoff'}>
       <div className={first ? "staticContent firtsStatic" : "staticContent"}>
         <div className="rodriSapiensAndLogo">
           <Logo className="logo" />

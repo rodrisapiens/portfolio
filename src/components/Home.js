@@ -4,7 +4,7 @@ import { ReactComponent as NoteBook } from "../images/noteBook.svg"
 function Home() {
     return (
         <div className='home' id='Home'>
-            <div className="header">
+            <div className="header" id='header'>
                 <div className="headerText">
                     <h1 className="headerTitle">
                         Rodrigo Niveryo
