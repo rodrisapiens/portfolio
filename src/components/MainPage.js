@@ -19,7 +19,7 @@ function MainPage() {
         }
         if (scrollTo === "Home") {
             window.scrollTo(0,0)
-            home.scrollIntoView({ behavior: 'smooth' })
+            //home.scrollIntoView({ behavior: 'smooth' })
         }
         if (scrollTo === "AboutMe") {
             aboutMe.scrollIntoView({ behavior: 'smooth' })
