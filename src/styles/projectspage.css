@@ -21,13 +21,30 @@
   border-radius: 5px;
   padding: 1rem;
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.3rem;
+}
+
+.backBtn svg {
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+}
+
+.backBtn svg path {
+  fill: #f582a7;
 }
 
 .projectPageImg {
   width: 90vw;
 }
 
-.gitBtn, .deployBtn {
+.gitBtn,
+.deployBtn {
   background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,11 +52,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: .2rem;
+  gap: 0.2rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: .5rem;
+  padding: 0.5rem;
   border: solid;
   border-width: thin;
   border-radius: 5px;

@@ -57,7 +57,7 @@ function MainPage() {
 
         }
         positions.current[1] = positions.current[0];
-        if (position === 0) {
+        if (position <6) {
             navBar.style.transform = `translateY(0)`//appear
         }
         console.log(position,"position")

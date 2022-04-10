@@ -60,7 +60,7 @@ export const info=[
     },
     {
         cardTitle:"IP adress tracker",
-        cardDescription:"designed by front end mentor,it displays information about de requested IP and show the location in an integrated map.I used html,css,React, an rest API for IP info and another API for the map",
+        cardDescription:"it displays information about de requested IP adress and show the location in an integrated map.I used html,css,React, an rest API for IP info and another API for the map",
         cardImage:tracker,
         photoRigth:false,
         bg:"#F582A7",
