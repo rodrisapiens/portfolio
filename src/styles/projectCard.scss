@@ -11,6 +11,14 @@
     width: 30vw;
     height: 7rem;
 }
+.cardHidenLeft
+{
+    transform: translateX(-200%);
+}
+.cardHidenRigth
+{
+    transform: translateX(200%);
+}
 .cardText
 {
     display: grid;
@@ -37,4 +45,21 @@
     color: #180A0A;
     font-size: small;
     height: 6rem;
+}
+.cardAppear
+{
+    animation: cardAppear .5s ease forwards ;
+}
+@keyframes cardAppear {
+    
+    100%{
+        transform: translateX(0);
+    }    
+}
+@media all  and (min-width:600px)
+{
+    .projectCard
+    {
+        width: 25vw;
+    }
 }

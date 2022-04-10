@@ -14,7 +14,9 @@ export const info=[
         cardImage:delta,
         photoRigth:true,
         bg:"#711A75",
-        longDescription:""
+        longDescription:"",
+        git:"https://github.com/rodrisapiens/delta-nature",
+        deployment:"https://delta-nature.vercel.app/"
     },
     {
         cardTitle:"Full stack CRUD comment Section",
@@ -22,7 +24,9 @@ export const info=[
         cardImage:comments,
         photoRigth:false,
         bg:"#F10086",
-        longDescription:""
+        longDescription:"",
+        git:"https://github.com/rodrisapiens/interactive-comments-section",
+        deployment:"https://interactive-comments-section-two.vercel.app/"
     },
     {
         cardTitle:"Country sercher App",
@@ -30,7 +34,9 @@ export const info=[
         cardImage:countries,
         photoRigth:true,
         bg:"#F582A7",
-        longDescription:""
+        longDescription:"",
+        git:"https://github.com/rodrisapiens/rest-countries-api-sercher",
+        deployment:"https://rest-countries-api-sercher.vercel.app/"
     },
     {
         cardTitle:"Animation project experience",
@@ -38,14 +44,18 @@ export const info=[
         cardImage:raros,
         photoRigth:false,
         bg:"#711A75",
-        longDescription:""
+        longDescription:"",
+        git:"https://github.com/rodrisapiens/rarospeinadosnuevos",
+        deployment:"https://short-film-animation-p.vercel.app/"
     },
     {
         cardTitle:"Special to do app",
         cardDescription:"designed by front end mentor, y coded this to do app with drag and drop feature, which make it special.I used html,css,React and vanilla js for the drag and drop.",
         cardImage:todo,
         photoRigth:true,
-        bg:"#F10086"
+        bg:"#F10086",
+        git:"https://github.com/rodrisapiens/new-to-do-app",
+        deployment:"https://new-to-do-app-six.vercel.app/"
 
     },
     {
@@ -54,7 +64,9 @@ export const info=[
         cardImage:tracker,
         photoRigth:false,
         bg:"#F582A7",
-        longDescription:""
+        longDescription:"",
+        git:"https://github.com/rodrisapiens/ip-adress-tracker",
+        deployment:"https://ip-adress-tracker-eight.vercel.app/"
     },
     {
         cardTitle:"Ecommerce product Main page",
@@ -62,7 +74,9 @@ export const info=[
         cardImage:ecommerce,
         photoRigth:true,
         bg:"#711A75",
-        longDescription:""
+        longDescription:"",
+        git:"https://github.com/rodrisapiens/ecommerce-product-mainpage",
+        deployment:"https://ecommerce-product-mainpage.vercel.app/Women"
     },
     {
         cardTitle:"Count Down Component",
@@ -70,7 +84,9 @@ export const info=[
         cardImage:count,
         photoRigth:false,
         bg:"#F10086",
-        longDescription:""
+        longDescription:"",
+        git:"https://github.com/rodrisapiens/launch-countdown-timer",
+        deployment:"https://vercel.com/rodrisapiens/launch-countdown-timer"
     },
     {
         cardTitle:"FAQ component",
@@ -78,6 +94,8 @@ export const info=[
         cardImage:faq,
         photoRigth:true,
         bg:"#F582A7",
-        longDescription:""
+        longDescription:"",
+        git:"https://github.com/rodrisapiens/faq-accordion-card",
+        deployment:"https://faq-accordion-card-vert-xi.vercel.app/"
     },
 ]

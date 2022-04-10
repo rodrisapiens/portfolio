@@ -32,17 +32,14 @@ function MainPage() {
         window.addEventListener("scroll", HandleScroll);
 
     }, [])
-    function HandleScroll() {//hay un bug, y el scrollY al 100% no coincide con el clientHeigth.aca voy a hacer cuentas para arreglarlo
+    function HandleScroll() {
         const mainPage=document.querySelector(".mainPage")
+        const allHeigth=mainPage.clientHeight;
+        const convertionn=window.innerHeight*((window.scrollY+window.innerHeight)/allHeigth);
+        const movingHeigth=window.scrollY+convertionn;
         const navBar=window.innerWidth>600?document.querySelector(".navBar"):document.querySelector(".mobileNavBar");
-        const convertion = (100 / (mainPage.clientHeight));//as a linear function, let's calculate the convertion factor
-        const converion1 = 100 / 80;//80 es el maximo que llega position
-        console.log(mainPage.clientHeight/window.innerHeight,"mainPage.clientHeight/window.innerHeight")
-        const position = ((window.scrollY) * convertion) * converion1//valor de 0 a 100
-        console.log((window.scrollY) * convertion,"(window.scrollY) * convertion)");
-        console.log(window.scrollY,"window.scrollY")
-        console.log(window.scrollY+window.innerHeight,"window.scrollY+window.innerHeight")      
-        positions.current[0] = position;
+        const position =(movingHeigth/mainPage.clientHeight)*100;//valor de 0 a 100
+            positions.current[0] = position;
         if (positions.current[0] - positions.current[1] > 0)//si estoy bajando
         {
             direction.current = "down";
@@ -63,6 +60,28 @@ function MainPage() {
         if (position === 0) {
             navBar.style.transform = `translateY(0)`//appear
         }
+        console.log(position,"position")
+        animations(position);
+    }
+    function animations(position)
+    {
+        const cards =document.querySelectorAll(".projectCard")
+        if(position>=15)
+        {
+            //cards[0].classList.remove("cardHidenLeft")
+            cards[0].classList.add("cardAppear")
+        }
+        if(position>=20)
+        {
+            //cards[1].classList.remove("cardHidenRigth")
+            cards[1].classList.add("cardAppear")
+        }
+        if(position>=25)
+        {
+            //cards[2].classList.remove("cardHidenLeft")
+            cards[2].classList.add("cardAppear")
+        }
+
     }
     return (
         <div className='mainPage'>

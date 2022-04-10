@@ -16,6 +16,16 @@
   height: 7rem;
 }
 
+.cardHidenLeft {
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+}
+
+.cardHidenRigth {
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+}
+
 .cardText {
   display: -ms-grid;
   display: grid;
@@ -42,5 +52,30 @@
   color: #180A0A;
   font-size: small;
   height: 6rem;
+}
+
+.cardAppear {
+  -webkit-animation: cardAppear .5s ease forwards;
+          animation: cardAppear .5s ease forwards;
+}
+
+@-webkit-keyframes cardAppear {
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes cardAppear {
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@media all and (min-width: 600px) {
+  .projectCard {
+    width: 25vw;
+  }
 }
 /*# sourceMappingURL=projectCard.css.map */
