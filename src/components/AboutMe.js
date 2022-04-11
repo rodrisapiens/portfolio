@@ -13,11 +13,11 @@ function AboutMe() {
   return (
     <div className='AboutMe' id='AboutMe'>
       <h1 className="aboutMeTitle">About Me</h1>
-      <img src={me} alt="" className="me" />
-      <div className="textConteiner">
-        <h1 className="aboutMeTextTitle">
+      <h1 className="aboutMeTextTitle">
         {aboutMeText.title}
         </h1>
+      <img src={me} alt="" className="me" />
+      <div className="textConteiner">
         <p className="aboutMeLittle">{aboutMeText.p1}</p>
         <p className="aboutMeLittle">{aboutMeText.p2}</p>
         <p className="aboutMeLittle">{aboutMeText.p3}</p>

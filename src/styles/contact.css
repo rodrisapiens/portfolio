@@ -10,6 +10,8 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 5%;
+  position: relative;
+  overflow: hidden;
 }
 
 .warn {
@@ -136,15 +138,69 @@
   margin-top: -4rem;
 }
 
+.otherContact {
+  font-size: .7rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  bottom: 2%;
+}
+
+.contactBoxConteiner {
+  background-color: #F582A7;
+  width: 100%;
+  border-radius: 15px;
+  height: 83vh;
+  position: absolute;
+  z-index: -3;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  bottom: 0%;
+}
+
+.buttonConteiner {
+  background-color: #F10086;
+  width: 100%;
+  border-radius: 15px;
+  height: 20vh;
+  position: absolute;
+  z-index: -2;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  bottom: 0;
+}
+
+.footer {
+  background-color: #711A75;
+  width: 100%;
+  border-radius: 15px;
+  height: 8vh;
+  position: absolute;
+  z-index: -1;
+  bottom: -2%;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
 @media all and (min-width: 600px) {
   .contactPage {
     height: 100vh;
     width: 100%;
     display: -ms-grid;
     display: grid;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 5%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -157,6 +213,10 @@
   .contactBox {
     width: 30rem;
     height: 27rem;
+    top: 34%;
+    position: relative;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
   .big {
     width: 8rem;
@@ -170,6 +230,64 @@
     margin-top: -1rem;
     border-width: thin;
     font-weight: 300;
+    bottom: 110%;
+  }
+  .otherContact {
+    font-size: .7rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    position: absolute;
+    bottom: 2%;
+  }
+  .contactBoxConteiner {
+    background-color: #F582A7;
+    width: 100%;
+    border-radius: 15px;
+    height: 90vh;
+    position: absolute;
+    z-index: -3;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    bottom: 0%;
+  }
+  .buttonConteiner {
+    background-color: #F10086;
+    width: 100%;
+    border-radius: 15px;
+    height: 20vh;
+    position: absolute;
+    z-index: -2;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    bottom: 0;
+  }
+  .footer {
+    background-color: #711A75;
+    width: 100%;
+    border-radius: 15px;
+    height: 8vh;
+    position: absolute;
+    z-index: -1;
+    bottom: -2%;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .enviame {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: -120%;
   }
 }
 

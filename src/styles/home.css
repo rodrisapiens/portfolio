@@ -142,12 +142,12 @@
 }
 
 .noteBook {
+  width: 100%;
   position: relative;
   top: 65%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 100vw;
   visibility: hidden;
   -webkit-animation: noteBook .5s ease forwards;
           animation: noteBook .5s ease forwards;
@@ -241,7 +241,7 @@
 
 @media all and (min-width: 600px) {
   .noteBook {
-    width: auto;
+    width: 60vw;
   }
   .header {
     top: 0;
@@ -250,7 +250,7 @@
     top: 58%;
   }
   .heroText {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=home.css.map */

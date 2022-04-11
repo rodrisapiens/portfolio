@@ -3,7 +3,7 @@
   display: -ms-flexbox;
   display: flex;
   padding: 1rem;
-  gap: .5rem;
+  gap: 0.5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -29,7 +29,7 @@
 .cardText {
   display: -ms-grid;
   display: grid;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .cardTitle {
@@ -37,26 +37,26 @@
 }
 
 .Violet {
-  background-color: #711A75;
+  background-color: #711a75;
 }
 
 .pink {
-  background-color: #F10086;
+  background-color: #f10086;
 }
 
 .ligthPink {
-  background-color: #F582A7;
+  background-color: #f582a7;
 }
 
 .cardDescription {
-  color: #180A0A;
+  color: #180a0a;
   font-size: small;
   height: 6rem;
 }
 
 .cardAppear {
-  -webkit-animation: cardAppear .5s ease forwards;
-          animation: cardAppear .5s ease forwards;
+  -webkit-animation: cardAppear 0.5s ease forwards;
+          animation: cardAppear 0.5s ease forwards;
 }
 
 @-webkit-keyframes cardAppear {
@@ -82,16 +82,16 @@
     height: 15vh;
   }
   .cardDescription {
-    font-size: larger;
+    font-size: .9rem;
   }
   .cardTitle {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .more {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .latestProjects {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=projectCard.css.map */

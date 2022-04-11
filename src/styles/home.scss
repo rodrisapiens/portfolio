@@ -93,11 +93,11 @@
 }
 .noteBook
 {
+    width: 100%;
     position: relative;
     top: 65%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 100vw;
     visibility: hidden;
     animation: noteBook .5s ease forwards;
     animation-delay: .4s;
@@ -141,7 +141,8 @@
 {
     .noteBook
     {
-        width: auto;
+        width: 60vw;
+
         
     }
     .header{
@@ -153,6 +154,6 @@
     }
     .heroText
     {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }

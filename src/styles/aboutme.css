@@ -33,7 +33,7 @@
   z-index: 2;
   width: 30vw;
   left: 15%;
-  top: 20%;
+  top: 35%;
   display: -ms-grid;
   display: grid;
   gap: .5rem;
@@ -57,5 +57,24 @@
 .aboutMeLittle {
   font-size: 0.5rem;
   width: 25vw;
+}
+
+@media all and (min-width: 600px) {
+  .me {
+    width: 80%;
+  }
+  .textConteiner {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    top: 7%;
+  }
+  .aboutMeLittle {
+    font-size: 1rem;
+    width: 15vw;
+  }
+  .icon {
+    width: 5vw;
+  }
 }
 /*# sourceMappingURL=aboutme.css.map */
