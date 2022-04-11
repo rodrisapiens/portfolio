@@ -60,11 +60,17 @@ function MainPage() {
         if (position <6) {
             navBar.style.transform = `translateY(0)`//appear
         }
-        console.log(position,"position")
         animations(position);
     }
     function animations(position)
     {
+        const p1=document.querySelector(".p1");
+        const p2=document.querySelector(".p2");
+        const p3=document.querySelector(".p3");
+        const p4=document.querySelector(".p4");
+        const p5=document.querySelector(".p5");
+        const p6=document.querySelector(".p6");
+        const title=document.querySelector(".aboutMeTextTitle")
         const cards =document.querySelectorAll(".projectCard")
         if(position>=15)
         {
@@ -80,6 +86,17 @@ function MainPage() {
         {
             //cards[2].classList.remove("cardHidenLeft")
             cards[2].classList.add("cardAppear")
+        }
+        if(position>=50){
+            console.log("50");
+            p1.style.transform=`translate(${-position/3}rem,${-position/2.1}rem)`
+            p2.style.transform=`translate(${-position/3.2}rem,${-position/2.6}rem)`
+            p3.style.transform=`translate(${-position/3.4}rem,${-position/3.5}rem)`
+            p4.style.transform=`translate(${-position/4.3}rem,${-position/5}rem)`
+            p5.style.transform=`translate(${-position/8}rem,${-position/6}rem)`
+            p6.style.transform=`translate(${-position/50}rem,${-position/7}rem)`
+            title.style.transform=`translate(${0}rem,${-position/30}rem)`
+
         }
 
     }

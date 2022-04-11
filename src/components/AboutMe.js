@@ -15,14 +15,15 @@ function AboutMe() {
       <h1 className="aboutMeTitle">About Me</h1>
       <h1 className="aboutMeTextTitle">
         {aboutMeText.title}
-        </h1>
+      </h1>
       <img src={me} alt="" className="me" />
-      <div className="textConteiner">
-        <p className="aboutMeLittle">{aboutMeText.p1}</p>
-        <p className="aboutMeLittle">{aboutMeText.p2}</p>
-        <p className="aboutMeLittle">{aboutMeText.p3}</p>
-        <p className="aboutMeLittle">{aboutMeText.p4}</p>
-      </div>
+        <p className="aboutMeLittle p1">{aboutMeText.p1}</p>
+        <p className="aboutMeLittle p2">{aboutMeText.p2}</p>
+        <p className="aboutMeLittle p3">{aboutMeText.p3}</p>
+        <p className="aboutMeLittle p4">{aboutMeText.p4}</p>
+        <p className="aboutMeLittle p5">{aboutMeText.p5}</p>
+        <p className="aboutMeLittle p6">{aboutMeText.p6}</p>
+
       <div className="icons">
         <Html className='html icon' />
         <Css className='css icon' />
