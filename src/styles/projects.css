@@ -9,8 +9,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-bottom: solid;
-  border-bottom-width: thin;
   padding: 5vw;
   justify-items: center;
   gap: 2rem;

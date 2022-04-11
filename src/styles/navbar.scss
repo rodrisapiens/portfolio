@@ -49,9 +49,11 @@
 }
 .contact:hover
 {
+    path{
+        fill:#180A0A;
+    }
     .arrow{
         animation: bounce 1s ease infinite;
-
     }
     
 }

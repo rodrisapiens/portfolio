@@ -72,6 +72,10 @@
   margin-top: .3rem;
 }
 
+.contact:hover path {
+  fill: #180A0A;
+}
+
 .contact:hover .arrow {
   -webkit-animation: bounce 1s ease infinite;
           animation: bounce 1s ease infinite;
