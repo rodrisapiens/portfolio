@@ -75,7 +75,23 @@
 
 @media all and (min-width: 600px) {
   .projectCard {
-    width: 25vw;
+    width: 35vw;
+    height: 25vh;
+  }
+  .CardImage {
+    height: 15vh;
+  }
+  .cardDescription {
+    font-size: larger;
+  }
+  .cardTitle {
+    font-size: 2rem;
+  }
+  .more {
+    font-size: 2rem;
+  }
+  .latestProjects {
+    font-size: 4rem;
   }
 }
 /*# sourceMappingURL=projectCard.css.map */
