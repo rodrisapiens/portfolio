@@ -89,13 +89,13 @@ function MainPage() {
         }
         if(position>=50){
             console.log("50");
-            p1.style.transform=`translate(${-position/3.2}rem,${-position/2.1}rem)`
-            p2.style.transform=`translate(${-position/3.3}rem,${-position/2.6}rem)`
-            p3.style.transform=`translate(${-position/3.4}rem,${-position/3.5}rem)`
-            p4.style.transform=`translate(${-position/4.3}rem,${-position/5}rem)`
-            p5.style.transform=`translate(${-position/8}rem,${-position/6}rem)`
-            p6.style.transform=`translate(${-position/50}rem,${-position/7}rem)`
-            title.style.transform=`translate(${0}rem,${-position/30}rem)`
+            p1.style.transform=`translate(${-position*1.22}vw,${-position*1.03}vh)`
+            p2.style.transform=`translate(${-position*1.20}vw,${-position*0.86}vh)`
+            p3.style.transform=`translate(${-position*1.18}vw,${-position*0.65}vh)`
+            p4.style.transform=`translate(${-position*.95}vw,${-position*.49}vh)`
+            p5.style.transform=`translate(${-position*.55}vw,${-position*.45}vh)`
+            p6.style.transform=`translate(${-position*.15}vw,${-position*.4}vh)`
+            title.style.transform=`translate(${0}rem,${-position*.1}vh)`
 
         }
 

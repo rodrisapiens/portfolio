@@ -38,7 +38,7 @@
     background: linear-gradient(#711a75, #f10086, #f582a7);
     padding: 1rem;
     position: absolute;
-    top: 20%;
+    top: 22%;
     color: #180a0a;
 }
 .aboutMeLittle {
@@ -91,9 +91,39 @@
     .aboutMeLittle {
         font-size: 1rem;
         width: 25vh;
-        position: relative;
     }
     .icon {
         width: 5vw;
+    }
+    .p1 {
+        left: 100%;
+        top: 100%;
+    }
+    .p2 {
+        left: 100%;
+        top: 100%;
+    
+    }
+    .p3 {
+        left: 100%;
+        top: 100%;
+    }
+    
+    .p4 {
+        left: 91%;
+        top: 100%;
+    
+    }
+    .p5 {
+        left: 75%;
+        top: 100%;
+    
+    }
+    .p6 {
+        left: 60%;
+        top: 100%;
+    }
+    .aboutMeTextTitle{
+        left: 20%;
     }
 }
