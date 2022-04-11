@@ -48,7 +48,7 @@ function Contact() {
         const warn = document.getElementById("warn");
 
         window.Email.send({
-            SecureToken: "cbd1a366-1e7c-42a6-9419-7fe1b305b5e7",
+            SecureToken: "0925a110-ab7a-4ba8-a423-151c82d137b0",
             //Host : "smtp.gmail.com",
             //Username : "rodrixportfolio@gmail.com",
             //Password : "locomateverde1998",
