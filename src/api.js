@@ -99,3 +99,4 @@ export const info=[
         deployment:"https://faq-accordion-card-vert-xi.vercel.app/"
     },
 ]
+export const aboutMeText={title:"Hi! I’m Rodrigo Niveyro Reguero,a 23 year old web developer.",p1:"I studied Electronics Ingenieering since 2017 and that  gave me a solid background in math,softwareingeniering and scientific way of thinking.",p2:"Im passionate about creating cool stuff and believe in lerning as a life style",p3:"Lately I have been working as a freelance web developer and cryptomarket trader. I’m really looking forward to joining part of a team and keep learning new things",p4:"Im bilingual in english and spanish"}
