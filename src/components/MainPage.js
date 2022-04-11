@@ -89,8 +89,8 @@ function MainPage() {
         }
         if(position>=50){
             console.log("50");
-            p1.style.transform=`translate(${-position/3}rem,${-position/2.1}rem)`
-            p2.style.transform=`translate(${-position/3.2}rem,${-position/2.6}rem)`
+            p1.style.transform=`translate(${-position/3.2}rem,${-position/2.1}rem)`
+            p2.style.transform=`translate(${-position/3.3}rem,${-position/2.6}rem)`
             p3.style.transform=`translate(${-position/3.4}rem,${-position/3.5}rem)`
             p4.style.transform=`translate(${-position/4.3}rem,${-position/5}rem)`
             p5.style.transform=`translate(${-position/8}rem,${-position/6}rem)`
