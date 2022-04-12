@@ -135,6 +135,38 @@
   top: 90%;
 }
 
+.html path {
+  fill: #E9A6A6;
+}
+
+.reactIcon path {
+  stroke: #E9A6A6;
+}
+
+.reactIcon path #Vector {
+  fill: #E9A6A6;
+}
+
+.css path, .cplusplus path {
+  fill: #864879;
+}
+
+.js path, .cplusplus path {
+  fill: #3F3351;
+}
+
+.c #Vector_4 {
+  fill: black;
+}
+
+.c path {
+  fill: #864879;
+}
+
+.matlab path {
+  fill: #E9A6A6;
+}
+
 @media all and (min-width: 600px) {
   .me {
     width: 80%;

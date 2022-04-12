@@ -4,7 +4,8 @@
 }
 
 .header {
-  background-color: #F10086;
+  background-color: #3F3351;
+  background-color: #1F1D36;
   border-radius: 15px;
   position: absolute;
   height: 0;
@@ -64,7 +65,7 @@
 }
 
 .headerTitle {
-  color: #711A75;
+  color: #864879;
 }
 
 .headerSubtitle {
@@ -73,7 +74,7 @@
 }
 
 .heroSection {
-  background-color: #F582A7;
+  background-color: #E9A6A6;
   border-radius: 15px;
   position: absolute;
   width: 100%;
@@ -131,7 +132,7 @@
 
 .heroText {
   text-align: center;
-  color: #F582A7;
+  color: #E9A6A6;
   font-size: 1rem;
 }
 

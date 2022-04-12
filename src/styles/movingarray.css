@@ -26,7 +26,7 @@
   width: -moz-fit-content;
   width: fit-content;
   border: solid;
-  border-color: black;
+  border-color: #1F1D36;
   border-width: thin;
   padding: 1rem;
   font-size: .7rem;
@@ -43,19 +43,20 @@
 
 @media all and (min-width: 600px) {
   .infoInside {
-    color: #180A0A;
+    color: #1F1D36;
     width: 10rem;
     font-size: 1rem;
   }
   .movingArray {
     width: 30%;
     left: 10%;
-    border-top: solid thin #180A0A;
-    border-bottom: solid thin #180A0A;
+    border-top: solid thin #1F1D36;
+    border-bottom: solid thin #1F1D36;
     padding: 1rem;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
+    position: absolute;
   }
 }
 /*# sourceMappingURL=movingarray.css.map */
