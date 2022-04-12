@@ -1,0 +1,85 @@
+.wordConteiner {
+  padding: .2rem;
+  -webkit-backface-visibility: visible;
+          backface-visibility: visible;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: viewbox;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+}
+
+.wordConteiner:nth-of-type(7) {
+  margin-right: 1rem;
+}
+
+.wordOn {
+  -webkit-animation: wordFall 1s ease-out;
+          animation: wordFall 1s ease-out;
+}
+
+@-webkit-keyframes wordFall {
+  0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  25% {
+    -webkit-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+  }
+  50% {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+  75% {
+    -webkit-transform: rotateX(270deg);
+            transform: rotateX(270deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360);
+            transform: rotateX(360);
+  }
+}
+
+@keyframes wordFall {
+  0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  25% {
+    -webkit-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+  }
+  50% {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+  75% {
+    -webkit-transform: rotateX(270deg);
+            transform: rotateX(270deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360);
+            transform: rotateX(360);
+  }
+}
+
+.word {
+  text-align: center;
+  color: #864879;
+  font-size: 1.2rem;
+}
+
+.bulletHole {
+  width: 1rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=word.css.map */

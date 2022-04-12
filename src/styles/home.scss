@@ -24,7 +24,19 @@
         height: 20vh;
     }
 }
-.headerText
+.headerTitle{
+    animation: headerTextAppear .5s ease forwards;
+    animation-delay: .2s;
+    transform: translateY(-30vh);
+    color:#864879;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    gap: .1rem;
+
+}
+ .headerText
 {
     transform: translateY(-30vh);
     display: grid;
@@ -32,7 +44,7 @@
     animation: headerTextAppear .5s ease forwards;
     animation-delay: .2s;
     margin-bottom: 2.5vh;
-}
+} 
 @keyframes headerTextAppear {   
     100%{
         transform: translateY(0);
@@ -40,8 +52,7 @@
 }
 .headerTitle
 {
-    //color: #711A75;
-    color:#864879;
+    color: #711A75;
 }
 .headerSubtitle
 {
