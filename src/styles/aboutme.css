@@ -11,6 +11,11 @@
   overflow: hidden;
 }
 
+.aboutMeTitle {
+  position: relative;
+  top: 0%;
+}
+
 .icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,17 +50,48 @@
   width: 10vw;
 }
 
-.aboutMeTextTitle {
-  font-size: 0.9rem;
-  width: 15rem;
-  text-align: center;
-  border-radius: 50%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#711a75), color-stop(#f10086), to(#f582a7));
-  background: linear-gradient(#711a75, #f10086, #f582a7);
+.aboutMeTextTitleConteiner {
+  width: 100%;
+  border-top: solid black thin;
+  border-bottom: solid black thin;
+  position: relative;
   padding: 1rem;
-  position: absolute;
-  top: 22%;
-  color: #180a0a;
+  overflow: hidden;
+}
+
+.aboutMeTextTitle {
+  font-size: 1rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  -webkit-animation: titlePass 10s linear infinite;
+          animation: titlePass 10s linear infinite;
+}
+
+@-webkit-keyframes titlePass {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+
+@keyframes titlePass {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
 }
 
 .aboutMeLittle {
@@ -63,7 +99,7 @@
   width: 8rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#711a75), color-stop(#f10086), to(#f582a7));
   background: linear-gradient(#711a75, #f10086, #f582a7);
-  border-radius: 50%;
+  border-radius: 15px;
   position: absolute;
   padding: 1rem;
   text-align: center;
@@ -142,7 +178,14 @@
     top: 100%;
   }
   .aboutMeTextTitle {
-    left: 20%;
+    position: relative;
+    font-size: 1.5rem;
+  }
+  .aboutMeTextTitleConteiner {
+    width: 30rem;
+    position: relative;
+    top: 10%;
+    margin-bottom: 1rem;
   }
 }
 /*# sourceMappingURL=aboutme.css.map */

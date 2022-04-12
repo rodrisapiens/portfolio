@@ -7,6 +7,10 @@
     position: relative;
     overflow: hidden;
 }
+.aboutMeTitle{
+    position:relative;
+    top: 0%;
+}
 .icons {
     display: flex;
     align-items: center;
@@ -30,22 +34,36 @@
 .icon {
     width: 10vw;
 }
-.aboutMeTextTitle {
-    font-size: 0.9rem;
-    width: 15rem;
-    text-align: center;
-    border-radius: 50%;
-    background: linear-gradient(#711a75, #f10086, #f582a7);
+.aboutMeTextTitleConteiner{
+    width: 100%;
+    border-top:solid black thin;
+    border-bottom:solid black thin;
+    position: relative;
     padding: 1rem;
-    position: absolute;
-    top: 22%;
-    color: #180a0a;
+    overflow: hidden;
+}
+.aboutMeTextTitle {
+    font-size: 1rem;
+    width: max-content;
+    text-align: center;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    animation: titlePass 10s linear infinite;
+}
+@keyframes titlePass {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }    
 }
 .aboutMeLittle {
     font-size: 0.7rem;
     width: 8rem;
     background: linear-gradient(#711a75, #f10086, #f582a7);
-    border-radius: 50%;
+    border-radius: 15px;
     position: absolute;
     padding: 1rem;
     text-align: center;
@@ -124,6 +142,13 @@
         top: 100%;
     }
     .aboutMeTextTitle{
-        left: 20%;
+        position: relative;
+        font-size: 1.5rem;
+    }
+    .aboutMeTextTitleConteiner{
+        width: 30rem;
+        position: relative;
+        top: 10%;
+        margin-bottom: 1rem;
     }
 }

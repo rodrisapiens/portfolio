@@ -4,6 +4,7 @@ import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Contact from './Contact';
 import { useScroll } from "../context";
+import { info } from '../api';
 function MainPage() {
     const { scrollTo, setScrollTo } = useScroll();
     const positions = useRef([0, 0])//[0]is actual position,[1],prev.
@@ -64,6 +65,7 @@ function MainPage() {
     }
     function animations(position)
     {
+        const infoBox= document.querySelectorAll(".infoBox");
         const p1=document.querySelector(".p1");
         const p2=document.querySelector(".p2");
         const p3=document.querySelector(".p3");
@@ -89,13 +91,18 @@ function MainPage() {
         }
         if(position>=50){
             console.log("50");
-            p1.style.transform=`translate(${-position*1.22}vw,${-position*1.03}vh)`
+            /* p1.style.transform=`translate(${-position*1.22}vw,${-position*1.03}vh)`
             p2.style.transform=`translate(${-position*1.20}vw,${-position*0.86}vh)`
             p3.style.transform=`translate(${-position*1.18}vw,${-position*0.65}vh)`
             p4.style.transform=`translate(${-position*.95}vw,${-position*.49}vh)`
             p5.style.transform=`translate(${-position*.55}vw,${-position*.45}vh)`
             p6.style.transform=`translate(${-position*.15}vw,${-position*.4}vh)`
-            title.style.transform=`translate(${0}rem,${-position*.1}vh)`
+            title.style.transform=`translate(${0}rem,${-position*.1}vh)` */
+            for(let i=0;i<infoBox.length;i++)
+            {
+                console.log("hola")
+                infoBox[i].style.transform=`translate(${position*6.5}vw,${0}vh)`
+            }
 
         }
 
