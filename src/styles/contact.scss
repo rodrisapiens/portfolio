@@ -248,4 +248,24 @@
     font-weight: lighter;
     margin-top: 1rem;
     padding:1rem;
+    border-radius: 5px;
+}
+.more:hover{
+    cursor: pointer;
+    animation: shake .5s ease forwards;
+}
+@keyframes shake {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    25%{
+        transform: rotateZ(5deg);
+    }
+    75%{
+        transform: rotateZ(-5deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+    
 }

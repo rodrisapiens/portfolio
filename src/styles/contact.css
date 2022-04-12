@@ -312,5 +312,50 @@
   font-weight: lighter;
   margin-top: 1rem;
   padding: 1rem;
+  border-radius: 5px;
+}
+
+.more:hover {
+  cursor: pointer;
+  -webkit-animation: shake .5s ease forwards;
+          animation: shake .5s ease forwards;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+  75% {
+    -webkit-transform: rotateZ(-5deg);
+            transform: rotateZ(-5deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+  75% {
+    -webkit-transform: rotateZ(-5deg);
+            transform: rotateZ(-5deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
 }
 /*# sourceMappingURL=contact.css.map */
