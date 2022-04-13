@@ -76,9 +76,10 @@ height: 8vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: relative;
+    position: absolute;
     width: 100%;
     gap: 30vw;    
+    top: 0%;
 }
 .nbion
 {
@@ -178,14 +179,14 @@ height: 8vh;
 }
 .firtsStatic
 {
-animation: appearStatic .5s ease forwards;
-}
+animation: appearStatic 1s ease forwards;
+}   
 @keyframes appearStatic {
     0%{
-        transform: translateY(-200%);
+        visibility: hidden;
     }
     100%{
-        transform: translateY(0);
+        visibility: visible;
     }
 }
 .links

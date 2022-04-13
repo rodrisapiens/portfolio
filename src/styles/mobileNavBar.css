@@ -120,9 +120,10 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  position: relative;
+  position: absolute;
   width: 100%;
   gap: 30vw;
+  top: 0%;
 }
 
 .nbion #top {
@@ -299,29 +300,25 @@
 }
 
 .firtsStatic {
-  -webkit-animation: appearStatic .5s ease forwards;
-          animation: appearStatic .5s ease forwards;
+  -webkit-animation: appearStatic 1s ease forwards;
+          animation: appearStatic 1s ease forwards;
 }
 
 @-webkit-keyframes appearStatic {
   0% {
-    -webkit-transform: translateY(-200%);
-            transform: translateY(-200%);
+    visibility: hidden;
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    visibility: visible;
   }
 }
 
 @keyframes appearStatic {
   0% {
-    -webkit-transform: translateY(-200%);
-            transform: translateY(-200%);
+    visibility: hidden;
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    visibility: visible;
   }
 }
 
