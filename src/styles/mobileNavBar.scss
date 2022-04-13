@@ -179,14 +179,14 @@ height: 8vh;
 }
 .firtsStatic
 {
-animation: appearStatic 1s ease forwards;
-}   
+animation: appearStatic .5s ease forwards;
+}
 @keyframes appearStatic {
     0%{
-        visibility: hidden;
+        transform: translateY(-200%);
     }
     100%{
-        visibility: visible;
+        transform: translateY(0);
     }
 }
 .links
