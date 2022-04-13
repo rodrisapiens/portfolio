@@ -82,4 +82,10 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
+@media all and (min-width: 600px) {
+  .word {
+    font-size: 1.2rem;
+  }
+}
 /*# sourceMappingURL=word.css.map */
