@@ -15,8 +15,8 @@
 }
 
 .wordOn {
-  -webkit-animation: wordFall 1s ease-out;
-          animation: wordFall 1s ease-out;
+  -webkit-animation: wordFall 1s ease-out forwards;
+          animation: wordFall 1s ease-out forwards;
 }
 
 @-webkit-keyframes wordFall {
@@ -37,8 +37,8 @@
             transform: rotateX(270deg);
   }
   100% {
-    -webkit-transform: rotateX(360);
-            transform: rotateX(360);
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
   }
 }
 
@@ -60,8 +60,8 @@
             transform: rotateX(270deg);
   }
   100% {
-    -webkit-transform: rotateX(360);
-            transform: rotateX(360);
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
   }
 }
 
