@@ -27,15 +27,22 @@
       -ms-flex-pack: center;
           justify-content: center;
   gap: .5rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .rodriSapiens {
   font-size: 1rem;
   font-weight: 500;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .logo {
   width: 2rem;
+  height: 3.5rem;
 }
 
 .navBarIcon {
@@ -122,6 +129,9 @@
       justify-content: space-around;
   width: 100%;
   gap: 30vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .nbion #top {
