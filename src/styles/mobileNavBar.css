@@ -120,9 +120,9 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  position: absolute;
+  position: relative;
   width: 100%;
-  top: 0%;
+  gap: 30vw;
 }
 
 .nbion #top {
