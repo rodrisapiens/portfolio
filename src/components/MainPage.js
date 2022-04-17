@@ -77,17 +77,17 @@ function MainPage() {
         cards[2].classList.remove("cardAppear")
         cards[1].classList.remove("cardAppear")
         cards[0].classList.remove("cardAppear")
-        if(position>=20)
+        if(position>=15)
         {
             //cards[0].classList.remove("cardHidenLeft")
             cards[0].classList.add("cardAppear")
         }
-        if(position>=27)
+        if(position>=22)
         {
             //cards[1].classList.remove("cardHidenRigth")
             cards[1].classList.add("cardAppear")
         }
-        if(position>=35)
+        if(position>=29)
         {
             cards[2].classList.add("cardAppear")
         }
