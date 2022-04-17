@@ -74,30 +74,25 @@ function MainPage() {
         const p6=document.querySelector(".p6");
         const title=document.querySelector(".aboutMeTextTitle")
         const cards =document.querySelectorAll(".projectCard")
-        if(position>=15)
+        cards[2].classList.remove("cardAppear")
+        cards[1].classList.remove("cardAppear")
+        cards[0].classList.remove("cardAppear")
+        if(position>=20)
         {
             //cards[0].classList.remove("cardHidenLeft")
             cards[0].classList.add("cardAppear")
         }
-        if(position>=20)
+        if(position>=27)
         {
             //cards[1].classList.remove("cardHidenRigth")
             cards[1].classList.add("cardAppear")
         }
-        if(position>=25)
+        if(position>=35)
         {
-            //cards[2].classList.remove("cardHidenLeft")
             cards[2].classList.add("cardAppear")
         }
         if(position>=50){
             console.log("50");
-            /* p1.style.transform=`translate(${-position*1.22}vw,${-position*1.03}vh)`
-            p2.style.transform=`translate(${-position*1.20}vw,${-position*0.86}vh)`
-            p3.style.transform=`translate(${-position*1.18}vw,${-position*0.65}vh)`
-            p4.style.transform=`translate(${-position*.95}vw,${-position*.49}vh)`
-            p5.style.transform=`translate(${-position*.55}vw,${-position*.45}vh)`
-            p6.style.transform=`translate(${-position*.15}vw,${-position*.4}vh)`
-            title.style.transform=`translate(${0}rem,${-position*.1}vh)` */
             for(let i=0;i<infoBox.length;i++)
             {
                 console.log("hola")

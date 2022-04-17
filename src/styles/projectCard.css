@@ -11,6 +11,44 @@
   border-radius: 10px;
 }
 
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(2.5deg);
+            transform: rotateZ(2.5deg);
+  }
+  75% {
+    -webkit-transform: rotateZ(-2.5deg);
+            transform: rotateZ(-2.5deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(2.5deg);
+            transform: rotateZ(2.5deg);
+  }
+  75% {
+    -webkit-transform: rotateZ(-2.5deg);
+            transform: rotateZ(-2.5deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+}
+
 .CardImage {
   width: 30vw;
   height: 7rem;
@@ -18,19 +56,37 @@
 }
 
 .cardHidenLeft {
-  -webkit-transform: translateX(-200%);
-          transform: translateX(-200%);
+  -webkit-transition: -webkit-clip-path .5s ease-in-out;
+  transition: -webkit-clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out, -webkit-clip-path .5s ease-in-out;
+  -webkit-clip-path: circle(5% at 10% 90%);
+          clip-path: circle(5% at 10% 90%);
+}
+
+.cardHidenMid {
+  -webkit-transition: -webkit-clip-path .5s ease-in-out;
+  transition: -webkit-clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out, -webkit-clip-path .5s ease-in-out;
+  -webkit-clip-path: circle(5% at 50% 50%);
+          clip-path: circle(5% at 50% 50%);
 }
 
 .cardHidenRigth {
-  -webkit-transform: translateX(200%);
-          transform: translateX(200%);
+  -webkit-transition: -webkit-clip-path .5s ease-in-out;
+  transition: -webkit-clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out, -webkit-clip-path .5s ease-in-out;
+  -webkit-clip-path: circle(5% at 90% 10%);
+          clip-path: circle(5% at 90% 10%);
 }
 
 .cardText {
   display: -ms-grid;
   display: grid;
   gap: 0.5rem;
+  color: white;
 }
 
 .cardTitle {
@@ -53,14 +109,18 @@
 }
 
 .cardDescription {
-  color: #180a0a;
+  color: white;
   font-size: small;
   height: 6rem;
 }
 
 .cardAppear {
-  -webkit-animation: cardAppear 0.5s ease forwards;
-          animation: cardAppear 0.5s ease forwards;
+  -webkit-transition: -webkit-clip-path .5s ease-in-out;
+  transition: -webkit-clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out, -webkit-clip-path .5s ease-in-out;
+  -webkit-clip-path: circle(100%);
+          clip-path: circle(100%);
 }
 
 @-webkit-keyframes cardAppear {
@@ -79,11 +139,14 @@
 
 @media all and (min-width: 600px) {
   .projectCard {
-    width: 35vw;
-    height: 25vh;
+    width: 25vw;
+    height: 50vh;
+    display: -ms-grid;
+    display: grid;
   }
   .CardImage {
-    height: 15vh;
+    height: 100%;
+    width: 100%;
   }
   .cardDescription {
     font-size: .9rem;

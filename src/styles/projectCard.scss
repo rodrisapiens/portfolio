@@ -6,20 +6,42 @@
     text-decoration: none;
     border-radius: 10px;
 }
+@keyframes shake {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    25%{
+        transform: rotateZ(2.5deg);
+    }
+    75%{
+        transform: rotateZ(-2.5deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+    
+}
 .CardImage {
     width: 30vw;
     height: 7rem;
     border-radius: 10px;
 }
 .cardHidenLeft {
-    transform: translateX(-200%);
+    transition: clip-path .5s ease-in-out;
+    clip-path: circle(5% at 10% 90%);
+}
+.cardHidenMid{
+    transition: clip-path .5s ease-in-out;
+    clip-path: circle(5% at 50% 50%);
 }
 .cardHidenRigth {
-    transform: translateX(200%);
+    transition: clip-path .5s ease-in-out;
+    clip-path: circle(5% at 90% 10%);
 }
 .cardText {
     display: grid;
     gap: 0.5rem;
+    color: white;
 }
 .cardTitle {
     font-size: 1rem;
@@ -40,12 +62,13 @@
 
 }
 .cardDescription {
-    color: #180a0a;
+    color: white;
     font-size: small;
     height: 6rem;
 }
 .cardAppear {
-    animation: cardAppear 0.5s ease forwards;
+    transition:clip-path .5s ease-in-out;
+    clip-path: circle(100%);
 }
 @keyframes cardAppear {
     100% {
@@ -54,11 +77,14 @@
 }
 @media all and (min-width: 600px) {
     .projectCard {
-        width: 35vw;
-        height: 25vh;
+        width: 25vw;
+        height: 50vh;
+        display: grid;
+
     }
     .CardImage {
-        height: 15vh;
+        height: 100%;
+        width: 100%;
     }
     .cardDescription {
         font-size: .9rem;

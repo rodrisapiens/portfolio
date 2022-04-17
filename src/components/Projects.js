@@ -20,8 +20,8 @@ function Projects() {
           })
           :
           <>
-            <ProjectCard info={info[0]} hide={"cardHidenLeft"} />
-            <ProjectCard info={info[1]} hide={"cardHidenRigth"}/>
+            <ProjectCard info={info[0]} hide={"cardHidenRigth"} />
+            <ProjectCard info={info[1]} hide={"cardHidenMid"}/>
             <ProjectCard info={info[2]} hide={"cardHidenLeft"}/>
           </>
         }
