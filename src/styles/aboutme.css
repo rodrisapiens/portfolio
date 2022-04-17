@@ -50,6 +50,11 @@
   width: 10vw;
 }
 
+.icon:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .aboutMeTextTitleConteiner {
   width: 100%;
   border-top: solid black thin;

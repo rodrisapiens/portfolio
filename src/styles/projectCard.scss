@@ -6,20 +6,33 @@
     text-decoration: none;
     border-radius: 10px;
 }
+.projectCard:hover {
+    animation: big 0.5s ease forwards;
+}
+@keyframes big {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 @keyframes shake {
-    0%{
+    0% {
         transform: rotateZ(0deg);
     }
-    25%{
+    25% {
         transform: rotateZ(2.5deg);
     }
-    75%{
+    75% {
         transform: rotateZ(-2.5deg);
     }
-    100%{
+    100% {
         transform: rotateZ(0deg);
     }
-    
 }
 .CardImage {
     width: 30vw;
@@ -27,15 +40,15 @@
     border-radius: 10px;
 }
 .cardHidenLeft {
-    transition: clip-path .5s ease-in-out;
+    transition: clip-path 0.5s ease-in-out;
     clip-path: circle(5% at 10% 90%);
 }
-.cardHidenMid{
-    transition: clip-path .5s ease-in-out;
+.cardHidenMid {
+    transition: clip-path 0.5s ease-in-out;
     clip-path: circle(5% at 50% 50%);
 }
 .cardHidenRigth {
-    transition: clip-path .5s ease-in-out;
+    transition: clip-path 0.5s ease-in-out;
     clip-path: circle(5% at 90% 10%);
 }
 .cardText {
@@ -49,17 +62,14 @@
 .Violet {
     background-color: #711a75;
     background-color: #864879;
-
 }
 .pink {
     background-color: #f10086;
-    background-color: #3F3351;
-
+    background-color: #3f3351;
 }
 .ligthPink {
     background-color: #f582a7;
-    background-color: #E9A6A6;
-
+    background-color: #e9a6a6;
 }
 .cardDescription {
     color: white;
@@ -67,7 +77,7 @@
     height: 6rem;
 }
 .cardAppear {
-    transition:clip-path .5s ease-in-out;
+    transition: clip-path 0.5s ease-in-out;
     clip-path: circle(100%);
 }
 @keyframes cardAppear {
@@ -80,14 +90,13 @@
         width: 25vw;
         height: 50vh;
         display: grid;
-
     }
     .CardImage {
         height: 100%;
         width: 100%;
     }
     .cardDescription {
-        font-size: .9rem;
+        font-size: 0.9rem;
     }
     .cardTitle {
         font-size: 1rem;

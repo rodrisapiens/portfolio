@@ -72,27 +72,25 @@ function Contact() {
         <div className='contactPage' id={"Contact"}>
             <div className="contactConteiner">
                 <h1 className="enviame">Send me a message</h1>
-                <small id='warn' className='warn'></small>
-                    <div className="contactBox">
-                        <div className="fill">
-                            <label htmlFor="name" className='myPlaceHolder'>Name</label>
-                            <input id="name" type="text" className="contactFill" />
-                            <label htmlFor="email" className='myPlaceHolder'>Email</label>
-                            <input id="email" type="email" className="contactFill" />
-                            <label htmlFor="phone" className='myPlaceHolder'>Phone</label>
-                            <input id="phone" type="text" className="contactFill" />
-                        </div>
-                        <label htmlFor="message" className='myPlaceLastHolder'>Your Message</label>
-                        <textarea id="message" className='contactMessage' />
+                <label htmlFor="contactBox" id='warn' className='warn'></label>
+                <div className="contactBox" id='contactBox'>
+                    <div className="fill">
+                        <label htmlFor="name" className='myPlaceHolder'>Name</label>
+                        <input id="name" type="text" className="contactFill" />
+                        <label htmlFor="email" className='myPlaceHolder'>Email</label>
+                        <input id="email" type="email" className="contactFill" />
+                        <label htmlFor="phone" className='myPlaceHolder'>Phone</label>
+                        <input id="phone" type="text" className="contactFill" />
                     </div>
-                    <button className="more big" onClick={handleSend}>SEND</button>
-                    <p className="otherContact">
+                    <label htmlFor="message" className='myPlaceLastHolder'>Your Message</label>
+                    <textarea id="message" className='contactMessage' />
+                </div>
+                <button className="more big" onClick={handleSend}>SEND</button>
+                <p className="otherContact">
                     Or contac me by my personal gmail: rodrigoniveyroreguero@gmail.com
-                    </p>
+                </p>
             </div>
-            <div className="contactBoxConteiner"></div>
-            <div className="buttonConteiner"></div>
-            <div className="footer"></div>
+
 
         </div>
     )

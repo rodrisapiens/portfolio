@@ -20,13 +20,6 @@ function AboutMe() {
         </h1>
       </div>
       <img src={me} alt="" className="me" />
-      {/*  <p className="aboutMeLittle p1">{aboutMeText.p1}</p>
-        <p className="aboutMeLittle p2">{aboutMeText.p2}</p>
-        <p className="aboutMeLittle p3">{aboutMeText.p3}</p>
-        <p className="aboutMeLittle p4">{aboutMeText.p4}</p>
-        <p className="aboutMeLittle p5">{aboutMeText.p5}</p>
-        <p className="aboutMeLittle p6">{aboutMeText.p6}</p> */}
-      <MovingArray />
       <div className="icons">
         <Html className='html icon' />
         <Css className='css icon' />

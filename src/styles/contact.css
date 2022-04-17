@@ -15,15 +15,14 @@
 }
 
 .warn {
-  position: relative;
+  top: 14%;
+  position: absolute;
   -ms-grid-column-align: center;
       justify-self: center;
   color: #ff4040;
   font-family: inherit;
   font-weight: 400;
   font-size: 1rem;
-  margin-top: -1rem;
-  margin-bottom: -1rem;
 }
 
 .contactBirds {
@@ -45,7 +44,7 @@
 .contactConteiner {
   display: -ms-grid;
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-items: center;
 }
 
@@ -134,8 +133,7 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  top: -28%;
-  margin-top: -4rem;
+  margin-top: -5rem;
 }
 
 .otherContact {
