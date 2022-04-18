@@ -121,6 +121,7 @@
   display: -ms-grid;
   display: grid;
   color: white;
+  gap: .5rem;
 }
 
 .cardTitle {
@@ -174,7 +175,7 @@
 @media all and (min-width: 600px) {
   .projectCard {
     width: 21rem;
-    height: 23rem;
+    height: 24rem;
     display: -ms-grid;
     display: grid;
   }
