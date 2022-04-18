@@ -14,6 +14,11 @@
   overflow: hidden;
 }
 
+.messageArea {
+  width: 100%;
+  height: 100%;
+}
+
 .warn {
   top: 14%;
   position: absolute;
@@ -63,7 +68,7 @@
 .fill {
   display: -ms-grid;
   display: grid;
-  height: 70%;
+  height: 12rem;
 }
 
 .contactFill {
@@ -89,9 +94,10 @@
   border-width: thin;
   color: white;
   padding: 1rem;
-  margin-top: -7rem;
   border-radius: 5px;
   font-weight: 300;
+  height: 90%;
+  width: 100%;
 }
 
 .big {
@@ -133,7 +139,6 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin-top: -5rem;
 }
 
 .otherContact {

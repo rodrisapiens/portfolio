@@ -70,18 +70,16 @@ function MainPage() {
         cards[2].classList.remove("cardAppear")
         cards[1].classList.remove("cardAppear")
         cards[0].classList.remove("cardAppear")
-        for(let i=0;i<shapesConteiner.length;i++)
+            for(let i=0;i<shapesConteiner.length;i++)
             {
-                shapesConteiner[i].style.animation=`none`
+                shapesConteiner[i].classList.remove("shapeAppear")
             }
         if(position>=15)
         {
-            //cards[0].classList.remove("cardHidenLeft")
             cards[0].classList.add("cardAppear")
         }
         if(position>=22)
         {
-            //cards[1].classList.remove("cardHidenRigth")
             cards[1].classList.add("cardAppear")
         }
         if(position>=29)
@@ -92,7 +90,8 @@ function MainPage() {
             console.log("50");
             for(let i=0;i<shapesConteiner.length;i++)
             {
-                shapesConteiner[i].style.animation=`shapeAppear 1s ease-in-out forwards`
+                shapesConteiner[i].classList.add("shapeAppear")
+                //shapesConteiner[i].style.animation=`shapeAppear 1s ease-in-out forwards`
             }
 
         }

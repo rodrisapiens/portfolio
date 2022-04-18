@@ -82,8 +82,10 @@ function Contact() {
                         <label htmlFor="phone" className='myPlaceHolder'>Phone</label>
                         <input id="phone" type="text" className="contactFill" />
                     </div>
-                    <label htmlFor="message" className='myPlaceLastHolder'>Your Message</label>
-                    <textarea id="message" className='contactMessage' />
+                    <div className="messageArea">
+                        <label htmlFor="message" className='myPlaceLastHolder'>Your Message</label>
+                        <textarea id="message" className='contactMessage' />
+                    </div>
                 </div>
                 <button className="more big" onClick={handleSend}>SEND</button>
                 <p className="otherContact">
