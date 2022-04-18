@@ -38,5 +38,10 @@
   .latestProjects {
     font-size: 4rem;
   }
+  .projectsPageDesciption {
+    font-size: 1rem;
+    width: 40rem;
+    line-height: 1.5;
+  }
 }
 /*# sourceMappingURL=projects.css.map */
