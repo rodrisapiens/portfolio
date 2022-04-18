@@ -49,7 +49,7 @@ export const info=[
         deployment:"https://short-film-animation-p.vercel.app/"
     },
     {
-        cardTitle:"Special to do app",
+        cardTitle:"to do app",
         cardDescription:"To do app with drag and drop feature. I used html, css, sass, React and vanilla js for the drag and drop.",
         cardImage:todo,
         photoRigth:true,
