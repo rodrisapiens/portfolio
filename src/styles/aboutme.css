@@ -222,7 +222,7 @@
 
 @media all and (min-width: 600px) {
   .me {
-    width: 30vw;
+    width: 30rem;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
