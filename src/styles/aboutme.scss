@@ -40,17 +40,6 @@
             transform: translate(0,0) rotateZ(1turn);
         }
 }
-.shapesConteiner:hover{
-    animation: helicopter 1s linear;
-}
-@keyframes helicopter {
-    0%{
-        transform: rotateZ(0deg);
-    }
-    100%{
-        transform: rotateZ(360deg);
-    }
-}
 .aboutMeText {
     font-size: 0.7rem;
     position: absolute;
@@ -85,7 +74,7 @@
     }
     top: 30%;
     left: 30%;
-    transform: translate(-100vw,100vw);
+    transform: translate(-50vw,50vw);
 }
 .p1 {
     .circle,.rectangle{
@@ -93,7 +82,7 @@
     }
     top: 30%;
     left: 70%;
-    transform: translate(-100vw,-100vw);
+    transform: translate(-50vw,-50vw);
 }
 .p2 {
     .circle,.rectangle{
@@ -101,7 +90,7 @@
     }
     top: 50%;
     left: 80%;
-    transform: translate(-0vw,-100vw);
+    transform: translate(-0vw,-50vw);
 }
 .p3 {
     .circle,.rectangle{
@@ -109,7 +98,7 @@
     }
     top: 70%;
     left: 70%;
-    transform: translate(100vw,-100vw);
+    transform: translate(50vw,-50vw);
 }
 .p4 {
     .circle,.rectangle{
@@ -117,7 +106,7 @@
     }
     top: 70%;
     left: 30%;
-    transform: translate(100vw,50vw);
+    transform: translate(50vw,50vw);
 }
 .p5 {
     .circle,.rectangle{
@@ -125,7 +114,7 @@
     }
     top: 50%;
     left: 20%;
-    transform: translate(-100vw,0);
+    transform: translate(0,50vw);
 }
 .html {
     path {
@@ -185,12 +174,6 @@
         position: relative;
         top: 10%;
         margin-bottom: 1rem;
-    }
-    .shapesConteiner {
-        position: absolute;
-    }
-    .shapesConteiner:hover{
-        animation: helicopter 1s linear;
     }
     .aboutMeText {
         font-size: 1rem;
