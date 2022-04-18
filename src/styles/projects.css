@@ -35,5 +35,8 @@
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
   }
+  .latestProjects {
+    font-size: 4rem;
+  }
 }
 /*# sourceMappingURL=projects.css.map */

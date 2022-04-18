@@ -86,19 +86,13 @@ function MainPage() {
         {
             cards[2].classList.add("cardAppear")
         }
-        if(position>=50){
+        if(position>=60){
             console.log("50");
             for(let i=0;i<shapesConteiner.length;i++)
             {
                 shapesConteiner[i].classList.add("shapeAppear")
                 //shapesConteiner[i].style.animation=`shapeAppear 1s ease-in-out forwards`
             }
-
-        }
-        if(position>=75){
-            console.log("75");
-
-            //nimation: shapeAppear 1s  3s ease-in-out forwards;
 
         }
 

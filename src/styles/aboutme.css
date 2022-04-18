@@ -11,6 +11,9 @@
 .aboutMeTitle {
   position: relative;
   top: 0%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .icons {
@@ -288,6 +291,9 @@
   }
   .icons {
     top: 86%;
+  }
+  .aboutMeTitle {
+    font-size: 4rem;
   }
 }
 /*# sourceMappingURL=aboutme.css.map */

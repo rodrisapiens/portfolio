@@ -184,16 +184,13 @@
     width: 100%;
   }
   .cardDescription {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .cardTitle {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .more {
     font-size: 1rem;
-  }
-  .latestProjects {
-    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=projectCard.css.map */

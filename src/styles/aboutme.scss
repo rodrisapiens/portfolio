@@ -9,6 +9,7 @@
 .aboutMeTitle {
     position: relative;
     top: 0%;
+    height: fit-content;
 }
 .icons {
     display: flex;
@@ -244,5 +245,8 @@
     }
     .icons{
         top: 86%;
+    }
+    .aboutMeTitle{
+        font-size: 4rem;
     }
 }
