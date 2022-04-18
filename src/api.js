@@ -1,12 +1,12 @@
-import delta from "./images/delta.png"
-import comments from "./images/comment.png"
-import countries from "./images/countries.png"
-import raros from "./images/rarospeinados.png"
-import todo from "./images/todo.png"
-import tracker from "./images/iptracker.png"
-import ecommerce from "./images/ecommerce.png"
-import count from "./images/countdown.png"
-import faq from "./images/faq.png"
+import delta from "./images/delta.webp"
+import comments from "./images/comment.webp"
+import countries from "./images/countries.webp"
+import raros from "./images/rarospeinados.webp"
+import todo from "./images/todo.webp"
+import tracker from "./images/iptracker.webp"
+import ecommerce from "./images/ecommerce.webp"
+import count from "./images/countdown.webp"
+import faq from "./images/faq.webp"
 export const info=[
     {
         cardTitle:"Delta&Nature’s E-commerce webPage",

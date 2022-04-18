@@ -65,18 +65,15 @@ function MainPage() {
     }
     function animations(position)
     {
-        const infoBox= document.querySelectorAll(".infoBox");
-        const p1=document.querySelector(".p1");
-        const p2=document.querySelector(".p2");
-        const p3=document.querySelector(".p3");
-        const p4=document.querySelector(".p4");
-        const p5=document.querySelector(".p5");
-        const p6=document.querySelector(".p6");
-        const title=document.querySelector(".aboutMeTextTitle")
+        const shapesConteiner= document.querySelectorAll(".shapesConteiner");
         const cards =document.querySelectorAll(".projectCard")
         cards[2].classList.remove("cardAppear")
         cards[1].classList.remove("cardAppear")
         cards[0].classList.remove("cardAppear")
+        for(let i=0;i<shapesConteiner.length;i++)
+            {
+                shapesConteiner[i].style.animation=`none`
+            }
         if(position>=15)
         {
             //cards[0].classList.remove("cardHidenLeft")
@@ -93,11 +90,16 @@ function MainPage() {
         }
         if(position>=50){
             console.log("50");
-            for(let i=0;i<infoBox.length;i++)
+            for(let i=0;i<shapesConteiner.length;i++)
             {
-                console.log("hola")
-                infoBox[i].style.transform=`translate(${position*6.5}vw,${0}vh)`
+                shapesConteiner[i].style.animation=`shapeAppear 1s ease-in-out forwards`
             }
+
+        }
+        if(position>=75){
+            console.log("75");
+
+            //nimation: shapeAppear 1s  3s ease-in-out forwards;
 
         }
 
