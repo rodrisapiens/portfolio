@@ -21,7 +21,7 @@ function ProjectsPage() {
       <img src={project.cardImage} alt="cardImage" className="projectPageImg" />
       <div className="projectsPageTexts">
         <h1 className='projectsPageTitle'>{project.cardTitle}</h1>
-        <p className="projectsPageDesciption">{project.cardDescription}</p>
+        <p className="projectsPageDesciption">{project.longDescription}</p>
       </div>
       <div className="buttons">
         <button className="gitBtn" onClick={handleGit}><Git />want to see the code?</button>

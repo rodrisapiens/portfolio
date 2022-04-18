@@ -1,29 +1,32 @@
-.projects
-{
+.projects {
     width: 100%;
     min-height: 100vh;
     display: grid;
     align-items: center;
     justify-content: center;
-    padding:5vw;
+    padding: 5vw;
     justify-items: center;
     gap: 2rem;
     overflow: hidden;
 }
-.cards
-{
+.cards {
     display: grid;
     gap: 1rem;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
-@media all and (min-width:600px) {
-    .cards{
+@media all and (min-width: 600px) {
+    .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     .latestProjects {
         font-size: 4rem;
+    }
+    .projectsPageDesciption {
+        font-size: 1rem;
+        width: 40rem;
+        line-height: 1.5;
     }
 }
