@@ -89,7 +89,7 @@ function Contact() {
                 </div>
                 <button className="more big" onClick={handleSend}>SEND</button>
                 <p className="otherContact">
-                    Or contac me by my personal gmail: rodrigoniveyroreguero@gmail.com
+                    Or contact me by my personal gmail: rodrigoniveyroreguero@gmail.com
                 </p>
             </div>
 
