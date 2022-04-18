@@ -63,6 +63,7 @@ export const info=[
         cardTitle:"IP adress tracker",
         cardDescription:'I used React,sass and 2 APIs for this app, which accepts an IP adress as an input and displays information and the location of the requested adress on a map.',
         photoRigth:false,
+        cardImage:tracker,
         bg:"#F582A7",
         longDescription:'cardDescription:I used React,sass and 2 APIs for this app, which accepts an IP adress as an input and displays information and the location of the requested adress on a map. the design files were provided by "front end mentor".only desktop version available',
         git:"https://github.com/rodrisapiens/ip-adress-tracker",
@@ -99,4 +100,4 @@ export const info=[
         deployment:"https://faq-accordion-card-vert-xi.vercel.app/"
     },
 ]
-export const aboutMeText={title:"Hi! I’m Rodrigo Niveyro Reguero,a 23 year old web developer.",p1:"I have studied Electronics Engenieering from 2017 to 2021",p2:"solid background in math,software engenieering and scientific thinking.",p3:"Im passionate about creating cool stuff and believe in lerning as a life style",p4:"Lately I have been working as a freelance web developer and cryptomarket trader.",p5:"I’m really looking forward to joining a team and keep learning new things",p6:"I'm bilingual, I speak english and spanish"}
+export const aboutMeText={title:"Hi! I’m Rodrigo Niveyro Reguero,a 23 year old web developer.",p1:"I have studied Electronics Engenieering from 2017 to 2021",p2:"solid background in math,software engenieering and scientific thinking.",p3:"Im passionate about science, creating cool stuff and believe in learning as a life style",p4:"Lately I have been working as a freelance web developer and cryptomarket trader.",p5:"I’m really looking forward to joining a team and learning new things",p6:"I speak english and spanish"}

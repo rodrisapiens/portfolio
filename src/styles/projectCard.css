@@ -120,7 +120,6 @@
 .cardText {
   display: -ms-grid;
   display: grid;
-  gap: 0.5rem;
   color: white;
 }
 
@@ -185,9 +184,13 @@
   }
   .cardDescription {
     font-size: 1rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .cardTitle {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .more {
     font-size: 1rem;

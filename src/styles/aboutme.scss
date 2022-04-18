@@ -68,66 +68,68 @@
     transform: translate(-50%, -50%);
 }
 .p0 {
-    .circle,.rectangle{
+    .circle,
+    .rectangle {
         background-color: #864879;
     }
     top: 30%;
     left: 30%;
-    transform: translate(-50vw,50vw);
+    transform: translate(-50vw, 50vw);
     transition: all 1s ease-in-out;
 }
 .p1 {
-    .circle,.rectangle{
+    .circle,
+    .rectangle {
         background-color: #1f1d36;
     }
     top: 30%;
     left: 70%;
-    transform: translate(-50vw,-50vw);
+    transform: translate(-50vw, -50vw);
     transition: all 1s ease-in-out;
 }
 .p2 {
-    .circle,.rectangle{
+    .circle,
+    .rectangle {
         background-color: #864879;
     }
     top: 50%;
     left: 80%;
-    transform: translate(-0vw,-50vw);
+    transform: translate(-0vw, -50vw);
     transition: all 1s ease-in-out;
-
 }
 .p3 {
-    .circle,.rectangle{
+    .circle,
+    .rectangle {
         background-color: #1f1d36;
     }
     top: 70%;
     left: 70%;
-    transform: translate(50vw,-50vw);
+    transform: translate(50vw, -50vw);
     transition: all 1s ease-in-out;
-
 }
 .p4 {
-    .circle,.rectangle{
+    .circle,
+    .rectangle {
         background-color: #864879;
     }
     top: 70%;
     left: 30%;
-    transform: translate(50vw,50vw);
+    transform: translate(50vw, 50vw);
     transition: all 1s ease-in-out;
-
 }
 .p5 {
-    .circle,.rectangle{
+    .circle,
+    .rectangle {
         background-color: #1f1d36;
     }
     top: 50%;
     left: 20%;
-    transform: translate(0,50vw);
+    transform: translate(0, 50vw);
     transition: all 1s ease-in-out;
-
 }
-.shapeAppear{
+.shapeAppear {
     transition: all 1s ease-in-out;
-    transform: translate(0,0) rotateZ(1turn);
+    transform: translate(0, 0) rotateZ(1turn);
 }
 .html {
     path {
@@ -170,12 +172,12 @@
 
 @media all and (min-width: 600px) {
     .me {
-        width:30vw;
+        width: 30vw;
         height: fit-content;
         top: 50%;
         left: 50%;
     }
-    
+
     .icon {
         width: 5vw;
     }
@@ -190,18 +192,18 @@
         margin-bottom: 1rem;
     }
     .aboutMeText {
-        font-size: 1rem;
+        font-size: .8rem;
         position: absolute;
         padding: 1rem;
         z-index: 2;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 12rem;
+        width: 10rem;
     }
     .rectangle {
-        width: 11rem;
-        height: 10rem;
+        width: 9rem;
+        height: 8rem;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -209,44 +211,40 @@
         border-radius: 15px;
     }
     .circle {
-        width: 12rem;
-        height: 12rem;
+        width: 10rem;
+        height: 10rem;
         border-radius: 50%;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .p0{
+    .p0 {
         top: 25%;
-        left:42% ;
+        left: 42%;
     }
-    .p1{
+    .p1 {
         top: 25%;
-        left:58% ;
+        left: 58%;
     }
-    .p2{
-        
-        left:65% ;
-
+    .p2 {
+        left: 65%;
     }
-    .p3{
+    .p3 {
         top: 75%;
-        left:58% ;
-
+        left: 58%;
     }
-    .p4{
+    .p4 {
         top: 75%;
-        left:42% ;
-
+        left: 42%;
     }
-    .p5{
-        left:35% ;
+    .p5 {
+        left: 35%;
     }
-    .icons{
-        top: 86%;
+    .icons {
+        top: 85%;
     }
-    .aboutMeTitle{
-        font-size: 4rem;
+    .aboutMeTitle {
+        font-size: 3rem;
     }
 }

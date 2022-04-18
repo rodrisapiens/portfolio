@@ -104,7 +104,8 @@
   transition: all 1s ease-in-out;
 }
 
-.p0 .circle, .p0 .rectangle {
+.p0 .circle,
+.p0 .rectangle {
   background-color: #864879;
 }
 
@@ -117,7 +118,8 @@
   transition: all 1s ease-in-out;
 }
 
-.p1 .circle, .p1 .rectangle {
+.p1 .circle,
+.p1 .rectangle {
   background-color: #1f1d36;
 }
 
@@ -130,7 +132,8 @@
   transition: all 1s ease-in-out;
 }
 
-.p2 .circle, .p2 .rectangle {
+.p2 .circle,
+.p2 .rectangle {
   background-color: #864879;
 }
 
@@ -143,7 +146,8 @@
   transition: all 1s ease-in-out;
 }
 
-.p3 .circle, .p3 .rectangle {
+.p3 .circle,
+.p3 .rectangle {
   background-color: #1f1d36;
 }
 
@@ -156,7 +160,8 @@
   transition: all 1s ease-in-out;
 }
 
-.p4 .circle, .p4 .rectangle {
+.p4 .circle,
+.p4 .rectangle {
   background-color: #864879;
 }
 
@@ -169,7 +174,8 @@
   transition: all 1s ease-in-out;
 }
 
-.p5 .circle, .p5 .rectangle {
+.p5 .circle,
+.p5 .rectangle {
   background-color: #1f1d36;
 }
 
@@ -237,7 +243,7 @@
     margin-bottom: 1rem;
   }
   .aboutMeText {
-    font-size: 1rem;
+    font-size: .8rem;
     position: absolute;
     padding: 1rem;
     z-index: 2;
@@ -245,11 +251,11 @@
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    width: 12rem;
+    width: 10rem;
   }
   .rectangle {
-    width: 11rem;
-    height: 10rem;
+    width: 9rem;
+    height: 8rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -258,8 +264,8 @@
     border-radius: 15px;
   }
   .circle {
-    width: 12rem;
-    height: 12rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -290,10 +296,10 @@
     left: 35%;
   }
   .icons {
-    top: 86%;
+    top: 85%;
   }
   .aboutMeTitle {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=aboutme.css.map */
