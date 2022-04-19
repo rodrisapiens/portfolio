@@ -100,4 +100,4 @@ export const info=[
         deployment:"https://faq-accordion-card-vert-xi.vercel.app/"
     },
 ]
-export const aboutMeText={title:"Hi! I’m Rodrigo Niveyro Reguero,a 23 year old web developer.",p1:"I have studied Electronics Engenieering from 2017 to 2021",p2:"Solid background in math,software engenieering and scientific thinking.",p3:"I'm passionate about science, creating cool stuff and believe in learning as a life style",p4:"Lately I have been working as a freelance web developer and cryptomarket trader.",p5:"I’m really looking forward to joining a team and learning new things",p6:"I speak english and spanish"}
+export const aboutMeText={title:"Hi! I’m Rodrigo Niveyro Reguero,a 23 year old web developer.",p1:"I have studied Electronics engineering from 2017 to 2021",p2:"Solid background in math,software engineering and scientific thinking.",p3:"I'm passionate about science, creating cool stuff and believe in learning as a life style",p4:"Lately I have been working as a freelance web developer and cryptomarket trader.",p5:"I’m really looking forward to joining a team and learning new things",p6:"I speak english and spanish"}
