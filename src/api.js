@@ -39,16 +39,6 @@ export const info=[
         deployment:"https://rest-countries-api-sercher.vercel.app/"
     },
     {
-        cardTitle:"Animation project experience",
-        cardDescription:'Audio-visual experiense to present "raros peinados nuevos", an animation project,to the public and investors.coded in html,css,javascript and React',
-        cardImage:raros,
-        photoRigth:false,
-        bg:"#711A75",
-        longDescription:'Audio-visual experiense to present "raros peinados nuevos". this is a work in progress, the stack is html,css,react',
-        git:"https://github.com/rodrisapiens/rarospeinadosnuevos",
-        deployment:"https://short-film-animation-p.vercel.app/"
-    },
-    {
         cardTitle:"to do app",
         cardDescription:"To do app with drag and drop feature. I used html, css, sass, React and vanilla js for the drag and drop.",
         cardImage:todo,
@@ -78,6 +68,16 @@ export const info=[
         longDescription:"I used html,css,sass,javascript and react. the design files were provided by Front end mentor. the only section available is the women section but it's very good looking and has some cool functionalities. only desktop version available",
         git:"https://github.com/rodrisapiens/ecommerce-product-mainpage",
         deployment:"https://ecommerce-product-mainpage.vercel.app/Women"
+    },
+    {
+        cardTitle:"Animation project experience",
+        cardDescription:'Audio-visual experiense to present "raros peinados nuevos", an animation project,to the public and investors.coded in html,css,javascript and React',
+        cardImage:raros,
+        photoRigth:false,
+        bg:"#711A75",
+        longDescription:'Audio-visual experiense to present "raros peinados nuevos". this is a work in progress, the stack is html,css,react',
+        git:"https://github.com/rodrisapiens/rarospeinadosnuevos",
+        deployment:"https://short-film-animation-p.vercel.app/"
     },
     {
         cardTitle:"Count Down Component",
