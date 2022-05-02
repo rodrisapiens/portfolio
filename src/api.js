@@ -14,7 +14,7 @@ export const info=[
         cardImage:delta,
         photoRigth:true,
         bg:"#711A75",
-        longDescription:"I used html,css and javascript ,React and an API for sending emails.Delta and nature is a local turism and environmental education start up based in Buenos Aires, Argentina. I was in charge of the designing and developing, I aimed to create an unique and beautiful digital experience working with cool layouts,efects and animations. the boat and guy ,the movile nav bar icon, and the cards from the about me section are thing unique which you won't find anywhere else.",
+        longDescription:"I used html,css and javascript ,React and an API for sending emails.Delta and nature is a local tourism and environmental education start up based in Buenos Aires, Argentina. I was in charge of the design and development, I aimed to create an unique and beautiful digital experience working with cool layouts,efects and animations. here you will encounter some unique things you won't find anywhere else.",
         git:"https://github.com/rodrisapiens/delta-nature",
         deployment:"https://delta-nature.vercel.app/"
     },

@@ -25,7 +25,7 @@ function ProjectsPage() {
       </div>
       <div className="buttons">
         <button className="gitBtn" onClick={handleGit}><Git />want to see the code?</button>
-        <button className="deployBtn" onClick={handleDeploy} ><Deployment />want to see the deployment?</button>
+        <button className="deployBtn" onClick={handleDeploy} ><Deployment />want to see the website?</button>
       </div>
     </div>
   )
